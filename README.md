@@ -169,7 +169,3 @@ Bu proje eğitim amaçlıdır. Yatırım tavsiyesi değildir.
 **⚠️ Önemli Uyarı**: Bu sistem finansal tavsiye vermez, sadece analiz yapar. Yatırım kararları için profesyonel danışman ile görüşün.
 """
 
-with open('README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("✅ README.md oluşturuldu!")
