@@ -1,0 +1,42 @@
+requirements_content = """# Finansal AI Agent - Gerekli Kütüphaneler
+
+# LLM API Clients
+anthropic>=0.40.0
+openai>=1.54.0
+
+# Finans Veri Kaynakları
+yfinance>=0.2.50
+
+# Veri İşleme
+pandas>=2.2.0
+numpy>=1.26.0
+
+# HTTP İstekleri
+requests>=2.31.0
+
+# Notebook Ortamı (Colab için)
+google-colab
+
+# JSON İşleme (built-in ama belirtelim)
+# json (Python built-in)
+
+# Regex (Python built-in)
+# re (Python built-in)
+
+# Matematik (Python built-in)
+# math (Python built-in)
+
+# Collections (Python built-in)
+# collections (Python built-in)
+
+# Tarih/Saat (Python built-in)
+# datetime (Python built-in)
+
+# Dosya İşlemleri (Python built-in)
+# time (Python built-in)
+"""
+
+with open('requirements.txt', 'w', encoding='utf-8') as f:
+    f.write(requirements_content.strip())
+
+print("✅ requirements.txt oluşturuldu!")
